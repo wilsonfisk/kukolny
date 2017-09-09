@@ -4,3 +4,4 @@ It is the brother of [matryo.sh.ka](https://github.com/wilsonfisk/matryoshka)
 
 ## Files:
 * **bd.sh**: backdoor
+* **tcps.sh**: TCP port scanner
